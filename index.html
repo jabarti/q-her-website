@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q-Her - Dating App with Trusted Matchmakers</title>
     <meta name="description" content="Q-Her is a dating app that connects people through trusted intermediaries called Cupids. Find meaningful connections with the help of friends who know you best.">
-    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" href="logo.png">
     <style>
         * {
             box-sizing: border-box;
@@ -31,6 +31,12 @@
             text-align: center;
             box-shadow: 0 20px 60px rgba(0,0,0,0.2);
             margin-bottom: 30px;
+        }
+        .logo-img {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 15px;
+            border-radius: 25px;
         }
         .logo {
             font-size: 3.5em;
@@ -140,6 +146,7 @@
             background: rgba(255,255,255,0.2);
             border-radius: 20px;
             font-size: 0.9em;
+            margin-left: 5px;
         }
         .lang-switch a:hover {
             background: rgba(255,255,255,0.3);
@@ -160,10 +167,12 @@
 <body>
     <div class="lang-switch">
         <a href="index-pl.html">Polski</a>
+        <a href="index-es.html">Español</a>
     </div>
 
     <div class="container">
         <div class="hero">
+            <img src="logo.png" alt="Q-Her Logo" class="logo-img">
             <div class="logo">Q-<span>Her</span></div>
             <p class="tagline">Dating with Trusted Matchmakers</p>
 
@@ -200,9 +209,7 @@
             <h2>Legal & Support</h2>
             <div class="links-grid">
                 <a href="privacy.html">Privacy Policy</a>
-                <a href="privacy-pl.html">Polityka Prywatnosci</a>
                 <a href="terms.html">Terms of Service</a>
-                <a href="terms-pl.html">Regulamin</a>
                 <a href="support.html">Support</a>
             </div>
         </div>
